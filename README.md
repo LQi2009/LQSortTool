@@ -92,4 +92,6 @@ NSMutableArray *pArray = [NSMutableArray arrayWithCapacity:0];
 ```
 NSArray *pArr = [LZSortTool sortObjcs:pArray byKey:@"name" withSortType:LZSortResultTypeDoubleValues];
 ```
-
+#示例图
+字符串排序,直接查看控制台输出吧,这里只给出模型排序的截图:
+![模型排序示例图]https://github.com/LQQZYY/LZSortTool/blob/master/示例图.png()
