@@ -48,9 +48,20 @@ static NSString const * _Nonnull LZSortToolValueKey = @"LZSortToolValueKey";
 NSArray *arr = [dic objectForKey:LZSortToolValueKey]
 ```
 
-#使用
-使用的时候非常简单,只需将文件夹LZSortClass拖到自己工程即可;
+#集成
+#####手动添加
 
+手动添加非常简单,只需将文件夹LZSortClass拖到自己工程, 然后在需要的地方引入头文件:
+```
+#import "LZSortTool.h"
+```
+
+#####cocoapods添加如果使用cocoapods管理, 可以在Podfile文件添加以下代码即可:
+```
+pod 'LZSortTool'
+```
+
+#使用
 ###对字符串进行排序
 ```
 - (NSMutableArray *)nameArray {
