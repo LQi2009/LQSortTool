@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					91715D711D680FEF00166EC3 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 29BN9F9KNE;
 					};
 					91715D8A1D680FEF00166EC3 = {
 						CreatedOnToolsVersion = 7.3;
@@ -383,7 +384,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29BN9F9KNE;
 				INFOPLIST_FILE = LZSortToolDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZSortToolDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -394,7 +397,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29BN9F9KNE;
 				INFOPLIST_FILE = LZSortToolDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZSortToolDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,6 +447,7 @@
 				91715D961D680FEF00166EC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91715D971D680FEF00166EC3 /* Build configuration list for PBXNativeTarget "LZSortToolDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +456,7 @@
 				91715D991D680FEF00166EC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
