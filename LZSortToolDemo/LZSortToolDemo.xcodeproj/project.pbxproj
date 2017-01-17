@@ -16,8 +16,8 @@
 		91715D901D680FEF00166EC3 /* LZSortToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91715D8F1D680FEF00166EC3 /* LZSortToolDemoUITests.m */; };
 		91715DA21D68100F00166EC3 /* LZSortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 91715D9C1D68100F00166EC3 /* LZSortTool.m */; };
 		91715DA31D68100F00166EC3 /* NSObject+LZSortKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 91715D9E1D68100F00166EC3 /* NSObject+LZSortKey.m */; };
-		91715DA41D68100F00166EC3 /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 91715DA11D68100F00166EC3 /* ChineseToPinyin.m */; };
 		91715DA71D68103400166EC3 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 91715DA61D68103400166EC3 /* People.m */; };
+		91AA81571E2DF7AC0016BF91 /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA81561E2DF7AC0016BF91 /* ChineseToPinyin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +48,10 @@
 		91715D9C1D68100F00166EC3 /* LZSortTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSortTool.m; sourceTree = "<group>"; };
 		91715D9D1D68100F00166EC3 /* NSObject+LZSortKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LZSortKey.h"; sourceTree = "<group>"; };
 		91715D9E1D68100F00166EC3 /* NSObject+LZSortKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LZSortKey.m"; sourceTree = "<group>"; };
-		91715DA01D68100F00166EC3 /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyin.h; sourceTree = "<group>"; };
-		91715DA11D68100F00166EC3 /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyin.m; sourceTree = "<group>"; };
 		91715DA51D68103400166EC3 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
 		91715DA61D68103400166EC3 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		91AA81551E2DF7AC0016BF91 /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyin.h; sourceTree = "<group>"; };
+		91AA81561E2DF7AC0016BF91 /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,18 +133,10 @@
 				91715D9C1D68100F00166EC3 /* LZSortTool.m */,
 				91715D9D1D68100F00166EC3 /* NSObject+LZSortKey.h */,
 				91715D9E1D68100F00166EC3 /* NSObject+LZSortKey.m */,
-				91715D9F1D68100F00166EC3 /* pinyin */,
+				91AA81551E2DF7AC0016BF91 /* ChineseToPinyin.h */,
+				91AA81561E2DF7AC0016BF91 /* ChineseToPinyin.m */,
 			);
 			path = LZSortClass;
-			sourceTree = "<group>";
-		};
-		91715D9F1D68100F00166EC3 /* pinyin */ = {
-			isa = PBXGroup;
-			children = (
-				91715DA01D68100F00166EC3 /* ChineseToPinyin.h */,
-				91715DA11D68100F00166EC3 /* ChineseToPinyin.m */,
-			);
-			path = pinyin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +243,8 @@
 				91715D7D1D680FEF00166EC3 /* ViewController.m in Sources */,
 				91715D7A1D680FEF00166EC3 /* AppDelegate.m in Sources */,
 				91715D771D680FEF00166EC3 /* main.m in Sources */,
+				91AA81571E2DF7AC0016BF91 /* ChineseToPinyin.m in Sources */,
 				91715DA71D68103400166EC3 /* People.m in Sources */,
-				91715DA41D68100F00166EC3 /* ChineseToPinyin.m in Sources */,
 				91715DA21D68100F00166EC3 /* LZSortTool.m in Sources */,
 				91715DA31D68100F00166EC3 /* NSObject+LZSortKey.m in Sources */,
 			);

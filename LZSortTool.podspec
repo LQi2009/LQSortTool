@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LZSortTool"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "LZSortTool是一个对字符串或者NSObject的子类对象, 一般是model进行排序的工具"
 
   s.description  = <<-DESC
