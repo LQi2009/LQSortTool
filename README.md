@@ -1,4 +1,4 @@
-#介绍
+# 介绍
 LZSortTool是一个分组排序工具,对排序操作进行了简单的封装,只需将所需排序的内容放在数组传过去即可;
 对外接口中,预留了两个方法,分别是对字符串内容进行排序,和对NSObject对象(一般是我们创建的数据模型model)进行排序
 ```Objective-C
@@ -48,25 +48,25 @@ static NSString const * _Nonnull LZSortToolValueKey = @"LZSortToolValueKey";
 NSArray *arr = [dic objectForKey:LZSortToolValueKey]
 ```
 
-#集成
-#####手动添加
+# 集成
+##### 手动添加
 
 手动添加非常简单,只需将文件夹LZSortClass拖到自己工程, 然后在需要的地方引入头文件:
 
-#####cocoapods添加
+##### cocoapods添加
 
 如果使用cocoapods管理, 可以在Podfile文件添加以下代码即可:
 ```
 pod 'LZSortTool'
 ```
 
-#使用
+# 使用
 
 引入头文件
 ```
 #import "LZSortTool.h"
 ```
-###对字符串进行排序
+### 对字符串进行排序
 ```
 - (NSMutableArray *)nameArray {
     if (!_nameArray) {
@@ -81,7 +81,7 @@ NSArray *arr = [LZSortTool sortStrings:self.nameArray withSortType:LZSortResultT
 NSArray *arr1 = [LZSortTool sortStrings:self.nameArray withSortType:LZSortResultTypeDoubleValues];
 ```
 这样即可获取到分组排序的结果;
-###对NSObject进行排序
+### 对NSObject进行排序
 首先,定义一个模型:
 ```
 #import <Foundation/Foundation.h>
@@ -107,6 +107,6 @@ NSMutableArray *pArray = [NSMutableArray arrayWithCapacity:0];
 ```
 NSArray *pArr = [LZSortTool sortObjcs:pArray byKey:@"name" withSortType:LZSortResultTypeDoubleValues];
 ```
-#示例图
+# 示例图
 字符串排序,直接查看控制台输出吧,这里只给出模型排序的截图:
 ![模型排序示例图](https://github.com/LQQZYY/LZSortTool/blob/master/示例图.png)
