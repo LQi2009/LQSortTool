@@ -1,3 +1,5 @@
+# Swift版本: [https://github.com/LQi2009/LQSortTool-Swift](https://github.com/LQi2009/LQSortTool-Swift)
+
 # 介绍
 LZSortTool是一个分组排序工具,对排序操作进行了简单的封装,只需将所需排序的内容放在数组传过去即可;
 对外接口中,预留了两个方法,分别是对字符串内容进行排序,和对NSObject对象(一般是我们创建的数据模型model)进行排序
