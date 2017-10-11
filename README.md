@@ -1,4 +1,4 @@
-# Swift版本: [https://github.com/LQi2009/LQSortTool-Swift](https://github.com/LQi2009/LQSortTool-Swift)
+# Swift版本: [LQSortTool-Swift](https://github.com/LQi2009/LQSortTool-Swift)
 
 # 介绍
 LZSortTool是一个分组排序工具,对排序操作进行了简单的封装,只需将所需排序的内容放在数组传过去即可;
